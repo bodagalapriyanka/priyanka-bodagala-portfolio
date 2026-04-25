@@ -99,9 +99,36 @@ h1, h2, h3, h4 {
   color: var(--color-muted);
   font-size: 0.92rem;
   font-weight: 500;
+  white-space: nowrap;
 }
 .nav-links a:hover { color: var(--color-navy); text-decoration: none; }
-@media (max-width: 720px) { .nav-links { display: none; } }
+@media (max-width: 720px) {
+  .nav-inner {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    padding: 12px 18px 10px;
+  }
+
+  .brand { font-size: 1rem; }
+
+  .nav-links {
+    display: flex;
+    gap: 14px;
+    width: 100%;
+    overflow-x: auto;
+    padding: 2px 0 6px;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .nav-links::-webkit-scrollbar { display: none; }
+
+  .nav-links a {
+    flex: 0 0 auto;
+    font-size: 0.84rem;
+  }
+}
 
 /* ============ HERO ============ */
 .hero {
