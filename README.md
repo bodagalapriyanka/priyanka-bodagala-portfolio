@@ -75,17 +75,17 @@ A pharmacist who writes SQL. A clinician who trains neural nets. I build the lay
 
 ```
 Portfolio/
-├── index.html              # Live portfolio site (GitHub Pages entry point)
-├── style.css               # Theme tokens + component styles
-├── README.md               # This file
-├── portfolio-data.md       # Editable source-of-truth for portfolio content
-├── evidence-index.md       # Private EB-1A evidence map (do not publish)
-├── PUBLISHING.md           # GitHub Pages publishing + maintenance guide
-├── LINKEDIN.md             # LinkedIn Featured ordering + announcement post
-└── assets/
-    ├── resume.pdf          # Add your resume PDF here
-    ├── headshot.jpg        # Optional
-    └── logos/              # Optional org logos for cards
+├── index.html                  # Live portfolio site (GitHub Pages entry point)
+├── README.md                   # This file
+├── assets/
+│   ├── css/
+│   │   └── style.css           # Theme tokens + component styles
+│   ├── files/                  # Resume and downloadable assets
+│   └── images/                 # Headshot, logos, and visual assets
+└── docs/
+    ├── portfolio-data.md       # Editable source-of-truth for portfolio content
+    ├── PUBLISHING.md           # GitHub Pages publishing + maintenance guide
+    └── LINKEDIN.md             # LinkedIn Featured ordering + announcement post
 ```
 
 ---
@@ -93,8 +93,8 @@ Portfolio/
 ## How to update this portfolio
 
 1. **Add or change content** in `index.html` (cards are clearly labelled by section).
-2. **Update sources** in `portfolio-data.md` so future edits stay consistent.
-3. **Add evidence privately** in `evidence-index.md` — this file is for your records / EB-1A organization and should not be committed publicly (see `.gitignore` recommendation in `PUBLISHING.md`).
+2. **Update sources** in `docs/portfolio-data.md` so future edits stay consistent.
+3. **Add evidence privately** in `docs/evidence-index.md` — this file is for your records / EB-1A organization and should not be committed publicly (see `.gitignore` recommendation in `docs/PUBLISHING.md`).
 4. Commit and push — GitHub Pages will redeploy automatically.
 
 ---

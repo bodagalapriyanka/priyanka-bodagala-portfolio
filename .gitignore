@@ -1,5 +1,6 @@
 # Private evidence and drafts
 evidence-index.md
+docs/evidence-index.md
 *.private.md
 *.draft.md
 *.draft.html

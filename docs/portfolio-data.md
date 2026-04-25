@@ -1,6 +1,6 @@
 # Portfolio Data — Source of Truth
 
-> Edit this file when content changes, then mirror updates into `index.html` and `README.md`. Keeps your portfolio coherent as you add new publications, talks, and judging assignments.
+> Edit this file when content changes, then mirror updates into `../index.html` and `../README.md`. Keeps your portfolio coherent as you add new publications, talks, and judging assignments.
 
 ---
 

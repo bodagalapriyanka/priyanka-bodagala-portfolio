@@ -19,7 +19,7 @@ git branch -M main
 # Create a .gitignore so private files stay private
 cat > .gitignore <<'EOF'
 # Private — do not publish
-evidence-index.md
+docs/evidence-index.md
 *.private.md
 *.draft.md
 
@@ -82,11 +82,11 @@ If you own a domain (e.g., `priyankabodagala.com`):
 
 ## 4. Adding your resume PDF
 
-1. Save your resume as `resume.pdf` in the `assets/` folder.
-2. The Hero CTA `Download Resume` button is already wired to `assets/resume.pdf`.
+1. Save your resume as `resume.pdf` in the `assets/files/` folder.
+2. Wire any resume link in `index.html` to `assets/files/resume.pdf`.
 3. Commit and push:
    ```bash
-   git add assets/resume.pdf
+   git add assets/files/resume.pdf
    git commit -m "Add resume PDF"
    git push
    ```
@@ -99,13 +99,13 @@ The portfolio is a living document. Every time you have new evidence:
 
 | When this happens… | Update… |
 |---|---|
-| New publication / DOI lands | `index.html` (Publications card) + `portfolio-data.md` + `README.md` |
-| Featured article / press hit | `index.html` (Featured Articles card) + `portfolio-data.md` |
-| Speaking gig confirmed | `index.html` (Speaking card) + `portfolio-data.md` |
-| New judging / peer review | `index.html` (Judging card) + `portfolio-data.md` |
-| New role / promotion | `index.html` (Experience timeline) + `portfolio-data.md` |
-| New certification | `index.html` (Certifications card) + `portfolio-data.md` |
-| Private evidence (letters, screenshots) | `evidence-index.md` only — keep private |
+| New publication / DOI lands | `index.html` (Publications card) + `docs/portfolio-data.md` + `README.md` |
+| Featured article / press hit | `index.html` (Featured Articles card) + `docs/portfolio-data.md` |
+| Speaking gig confirmed | `index.html` (Speaking card) + `docs/portfolio-data.md` |
+| New judging / peer review | `index.html` (Judging card) + `docs/portfolio-data.md` |
+| New role / promotion | `index.html` (Experience timeline) + `docs/portfolio-data.md` |
+| New certification | `index.html` (Certifications card) + `docs/portfolio-data.md` |
+| Private evidence (letters, screenshots) | `docs/evidence-index.md` only — keep private |
 
 After editing, push:
 
@@ -133,7 +133,7 @@ python3 -m http.server 8000
 
 ## 7. Quick design tweaks
 
-The colorful theme lives entirely in `style.css` under `:root` CSS variables:
+The colorful theme lives entirely in `assets/css/style.css` under `:root` CSS variables:
 
 - Change brand colors → edit `--color-blue`, `--color-cyan`, `--color-purple`, etc.
 - Change hero gradient → edit `--gradient-hero`
@@ -146,7 +146,7 @@ Each section uses `--accent` per card / per metric (set inline) to keep section 
 
 ## 8. Privacy / safety checklist before going public
 
-- [ ] Confirm `evidence-index.md` is in `.gitignore`
+- [ ] Confirm `docs/evidence-index.md` is in `.gitignore`
 - [ ] Confirm phone number and personal address are **not** in `index.html` or `README.md`
 - [ ] Confirm no employer-confidential data is in any project description
 - [ ] Confirm every external link resolves (publications, featured articles, certifications)
