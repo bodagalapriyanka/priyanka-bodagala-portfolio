@@ -4,7 +4,7 @@
 
 A pharmacist who writes SQL. A clinician who trains neural nets. I build the layer where clinical reality meets clean data — across FHIR pipelines, EHR data quality, RAG/LLM workflows, and digital biomarkers.
 
-🌐 **Portfolio site:** [Open `index.html`](./index.html) (or visit the GitHub Pages URL once published)
+🌐 **Portfolio site:** [Healthcare AI & Clinical Data Portfolio](https://priyankabodagala.vercel.app)
 🔗 **LinkedIn:** [linkedin.com/in/priyankabodagala](https://www.linkedin.com/in/priyankabodagala/)
 💻 **GitHub:** [github.com/bodagalapriyanka](https://github.com/bodagalapriyanka)
 🎓 **Google Scholar:** [Profile](https://scholar.google.com/citations?hl=en&authuser=1&user=80_G6gQAAAAJ)
@@ -12,6 +12,12 @@ A pharmacist who writes SQL. A clinician who trains neural nets. I build the lay
 📚 **ResearchGate:** [Profile](https://www.researchgate.net/profile/Guru-Lakshmi-Priyanka-Bodagala/research)
 ✉️ **Email:** bodagalapriyanka@gmail.com
 📍 **Location:** Fremont, California
+
+---
+
+## Live Portfolio
+
+View the live portfolio here: [Healthcare AI & Clinical Data Portfolio](https://priyankabodagala.vercel.app)
 
 ---
 
