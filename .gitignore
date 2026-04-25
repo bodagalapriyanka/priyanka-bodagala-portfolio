@@ -1,0 +1,15 @@
+# Private evidence and drafts
+evidence-index.md
+*.private.md
+*.draft.md
+*.draft.html
+
+# Local PDFs and resume variants
+*.pdf
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
