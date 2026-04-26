@@ -14,5 +14,8 @@ Thumbs.db
 .idea/
 .vscode/
 *.swp
+
+# Dependencies
+node_modules/
 .vercel
 .env*.local
