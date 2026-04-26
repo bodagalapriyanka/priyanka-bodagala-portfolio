@@ -253,6 +253,7 @@ section { padding: 72px 0; }
   gap: 18px;
 }
 .snap-card {
+  display: block;
   background: var(--color-card);
   border-radius: var(--radius-card);
   padding: 22px 20px;
@@ -260,6 +261,17 @@ section { padding: 72px 0; }
   border: 1px solid var(--color-border);
   position: relative;
   overflow: hidden;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+}
+.snap-card:hover {
+  border-color: color-mix(in srgb, var(--accent, var(--color-blue)) 45%, var(--color-border));
+  box-shadow: var(--shadow-card);
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+.snap-card:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--accent, var(--color-blue)) 35%, white);
+  outline-offset: 3px;
 }
 .snap-card::before {
   content: '';
