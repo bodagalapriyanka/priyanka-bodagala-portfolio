@@ -27,7 +27,7 @@
 4. RAG / LLM workflows for healthcare
 5. Digital health and digital biomarkers
 
-**Target audiences:** Healthcare AI roles · Health informatics leadership · Research collaborations · Conference speaking · EB-1A evidence organization
+**Target audiences:** Healthcare AI roles · Health informatics leadership · Research collaborations · Conference speaking · professional portfolio organization
 
 **Strongest keywords:** FHIR, HL7, SNOMED CT, LOINC, RxNorm, ICD-10, DICOM, SQL, Python, GCP, RAG, LLM, EHR, clinical data quality, digital health, interoperability, healthcare analytics, clinical AI validation, HIPAA
 

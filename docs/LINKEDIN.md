@@ -14,7 +14,7 @@ LinkedIn Featured renders the first 2 items most prominently. Lead with what's u
 
 2. **HealthAI Summit 2026 panel recap** *(your existing LinkedIn post)*
    *Title:* "Deploying Generative AI in Healthcare — beyond the hype"
-   *Why first:* Demonstrates thought leadership + invited speaking, both EB-1A relevant.
+   *Why first:* Demonstrates thought leadership + invited speaking.
 
 3. **Multi-Omics SNF/NEMO — ACM DMIP 2025** — `https://doi.org/10.1145/3785443.3785459`
    *Title:* "ACM DMIP 2025 — Multi-Omics Data Integration via SNF & NEMO"
