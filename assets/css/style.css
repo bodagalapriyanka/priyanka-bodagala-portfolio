@@ -86,9 +86,27 @@ h1, h2, h3, h4 {
   margin: 0 auto;
 }
 .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   font-family: var(--font-heading);
   font-weight: 700;
   font-size: 1.05rem;
+  color: var(--color-navy);
+}
+.brand:hover {
+  text-decoration: none;
+}
+.brand-logo {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  background: white;
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.18);
+}
+.brand-name {
   background: var(--gradient-button);
   -webkit-background-clip: text;
   background-clip: text;
@@ -111,6 +129,11 @@ h1, h2, h3, h4 {
   }
 
   .brand { font-size: 1rem; }
+
+  .brand-logo {
+    width: 34px;
+    height: 34px;
+  }
 
   .nav-links {
     display: flex;
