@@ -81,14 +81,14 @@ h1, h2, h3, h4 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 14px 24px;
+  padding: 10px 24px;
   max-width: 1140px;
   margin: 0 auto;
 }
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
   font-family: var(--font-heading);
   font-weight: 700;
   font-size: 1.05rem;
@@ -98,13 +98,14 @@ h1, h2, h3, h4 {
   text-decoration: none;
 }
 .brand-logo {
-  width: 38px;
-  height: 38px;
-  border-radius: 50%;
-  object-fit: cover;
+  width: 58px;
+  height: 58px;
+  border-radius: 14px;
+  object-fit: contain;
   object-position: center;
   background: white;
-  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.18);
+  padding: 4px;
+  box-shadow: 0 10px 26px rgba(37, 99, 235, 0.24);
 }
 .brand-name {
   background: var(--gradient-button);
@@ -131,8 +132,9 @@ h1, h2, h3, h4 {
   .brand { font-size: 1rem; }
 
   .brand-logo {
-    width: 34px;
-    height: 34px;
+    width: 46px;
+    height: 46px;
+    border-radius: 12px;
   }
 
   .nav-links {
@@ -167,19 +169,6 @@ h1, h2, h3, h4 {
   background:
     radial-gradient(ellipse at 10% 20%, rgba(37,99,235,0.10), transparent 50%),
     radial-gradient(ellipse at 90% 80%, rgba(236,72,153,0.10), transparent 50%);
-  pointer-events: none;
-}
-.hero::after {
-  content: '';
-  position: absolute;
-  right: clamp(-120px, -8vw, -40px);
-  top: 50%;
-  width: min(52vw, 560px);
-  aspect-ratio: 1;
-  background: url("../images/priyanka-mshi,pharmd_logo.png") center / contain no-repeat;
-  opacity: 0.11;
-  filter: blur(5px) saturate(1.05);
-  transform: translateY(-50%) rotate(-4deg);
   pointer-events: none;
 }
 .hero-inner {
@@ -281,13 +270,6 @@ h1, h2, h3, h4 {
     padding: 72px 0 78px;
   }
 
-  .hero::after {
-    right: -130px;
-    top: 34%;
-    width: 420px;
-    opacity: 0.08;
-  }
-
   .hero-inner {
     grid-template-columns: 1fr;
     gap: 34px;
@@ -302,13 +284,6 @@ h1, h2, h3, h4 {
 @media (max-width: 520px) {
   .hero {
     padding: 48px 0 64px;
-  }
-
-  .hero::after {
-    width: 330px;
-    right: -150px;
-    top: 22%;
-    opacity: 0.06;
   }
 
   .hero-portrait {
@@ -409,6 +384,11 @@ section { padding: 72px 0; }
 }
 @media (max-width: 880px) { .about-grid { grid-template-columns: 1fr; } }
 .about-text p { margin-bottom: 16px; color: var(--color-text); }
+.about-side {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
 .about-meta {
   background: var(--color-card);
   border-radius: var(--radius-card);
@@ -426,6 +406,23 @@ section { padding: 72px 0; }
 .meta-row:last-child { border: none; }
 .meta-key { color: var(--color-muted); font-weight: 500; }
 .meta-val { color: var(--color-navy); font-weight: 600; text-align: right; }
+.about-logo-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+}
+.about-logo-wrap img {
+  display: block;
+  width: min(72%, 240px);
+  height: auto;
+  opacity: 0.96;
+  mix-blend-mode: multiply;
+}
+@media (max-width: 880px) {
+  .about-logo-wrap {
+    justify-content: flex-start;
+  }
+}
 
 /* keyword pills */
 .pills { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
