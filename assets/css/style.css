@@ -169,8 +169,22 @@ h1, h2, h3, h4 {
     radial-gradient(ellipse at 90% 80%, rgba(236,72,153,0.10), transparent 50%);
   pointer-events: none;
 }
+.hero::after {
+  content: '';
+  position: absolute;
+  right: clamp(-120px, -8vw, -40px);
+  top: 50%;
+  width: min(52vw, 560px);
+  aspect-ratio: 1;
+  background: url("../images/priyanka-mshi,pharmd_logo.png") center / contain no-repeat;
+  opacity: 0.11;
+  filter: blur(5px) saturate(1.05);
+  transform: translateY(-50%) rotate(-4deg);
+  pointer-events: none;
+}
 .hero-inner {
   position: relative;
+  z-index: 1;
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(280px, 380px);
   align-items: center;
@@ -267,6 +281,13 @@ h1, h2, h3, h4 {
     padding: 72px 0 78px;
   }
 
+  .hero::after {
+    right: -130px;
+    top: 34%;
+    width: 420px;
+    opacity: 0.08;
+  }
+
   .hero-inner {
     grid-template-columns: 1fr;
     gap: 34px;
@@ -281,6 +302,13 @@ h1, h2, h3, h4 {
 @media (max-width: 520px) {
   .hero {
     padding: 48px 0 64px;
+  }
+
+  .hero::after {
+    width: 330px;
+    right: -150px;
+    top: 22%;
+    opacity: 0.06;
   }
 
   .hero-portrait {
