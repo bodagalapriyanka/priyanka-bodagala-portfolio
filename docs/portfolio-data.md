@@ -119,12 +119,12 @@
 
 ## 10. Certifications
 
-- **AWS Certified AI Practitioner** — Amazon Web Services *<!-- TODO: credential URL -->*
-- **Introduction to Large Language Models** *<!-- TODO: org + URL -->*
-- **Finding Hidden Messages in DNA (Bioinformatics I)** — Coursera *<!-- TODO: URL -->*
-- **Good Clinical Practice — Social & Behavioral Research** — CITI Program *<!-- TODO: URL -->*
-- **HIPAA Awareness for Business Associates** *<!-- TODO: URL -->*
-- **Human Subjects Protection Training** — CITI Program *<!-- TODO: URL -->*
+- **AWS Certified AI Practitioner** — Amazon Web Services — https://www.udacity.com/certificate/e/0cc73a04-3138-11f1-b720-371ae000abe3
+- **Introduction to Large Language Models** — Google Cloud — https://www.coursera.org/account/accomplishments/verify/D8BJ5NGMUH49
+- **Finding Hidden Messages in DNA (Bioinformatics I)** — Coursera — https://www.coursera.org/account/accomplishments/verify/4RVHT9BLQD9B
+- **Access Bioinformatics Databases with Biopython** — Coursera — Issued Feb 2025 — https://www.coursera.org/account/accomplishments/verify/X1RJ27D3UU99 — Hands-on experience accessing and analyzing bioinformatics databases with Biopython, including sequence alignment with NCBI-BLAST, retrieving PubMed articles and nucleotide sequences with Entrez, and working with biological sequence data.
+- **Ingesting FHIR Data with the Healthcare API** — Google Cloud — Issued Oct 2024 — Credential ID K7WEZTREJ2ZJ — https://www.coursera.org/account/accomplishments/verify/K7WEZTREJ2ZJ — Hands-on experience using Google Cloud's Healthcare API to manage FHIR data, set up datasets and stores, import/export healthcare data, integrate with BigQuery for analysis, and apply de-identification tools for privacy compliance.
+- **Generative AI for Healthcare** — Google Cloud — Issued Oct 2024 — Credential ID TXDNH23V0X6Q — https://www.coursera.org/account/accomplishments/verify/TXDNH23V0X6Q — Completed certification applying Generative AI and Large Language Models (LLMs) in healthcare, including hands-on work with Google Cloud Vertex AI for healthcare AI workflows such as medical text summarization.
 
 ---
 
